@@ -17,6 +17,13 @@ export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f57172140
 export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')
 export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A5d5039A161', 9, 'AMPL', 'Ampleforth')
 
+
+export const HPBUSDT = new Token(ChainId.HPB, '0xd378634119d2f7b3cf3d60e0b0f5e048e74ce3cf', 18, 'USDT', 'Tether USD')
+export const HPBOLDUSDT = new Token(ChainId.HPB, '0xe78984541A634C52C760fbF97ca3f8E7d8f04C85', 18, 'USDT', 'Tether USD')
+export const HPBHPD = new Token(ChainId.HPB, '0x6383f770f1eec68e80ac0c5527be71a11b4d182c', 18, 'HPD', 'Hpdex Token')
+export const HPBESR = new Token(ChainId.HPB, '0xa7Be5e053cb523585A63F8F78b7DbcA68647442F', 18, 'ESR', 'ESR Token')
+export const HPBETH = new Token(ChainId.HPB, '0x0F63352dF611350201c419dE9399a67e50D4B820', 18, 'ETH', 'ETH Token')
+
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
   [ChainId.ROPSTEN]: [WETH[ChainId.ROPSTEN]],
@@ -51,7 +58,8 @@ export const SUGGESTED_BASES: ChainTokenList = {
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET]],
+  [ChainId.HPB]: [...WETH_ONLY[ChainId.HPB],HPBUSDT,HPBHPD,HPBESR,HPBETH,HPBOLDUSDT]
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {

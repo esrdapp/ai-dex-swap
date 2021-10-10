@@ -65,8 +65,6 @@ function useCallsData(calls: (Call | undefined)[], options?: ListenerOptions): C
     [calls]
   )
 
-  window.console.log("---serializedCallKeys-1-",serializedCallKeys)
-  
   // update listeners when there is an actual change that persists for at least 100ms
   useEffect(() => {
     const callKeys: string[] = JSON.parse(serializedCallKeys)
@@ -221,12 +219,7 @@ export function useMultipleContractSingleData(
     [addresses, callData, fragment]
   )
 
-  window.console.log("---calls-1-",calls)
-  
-
   const results = useCallsData(calls, options)
-
-  window.console.log("---results-1-",results)
 
   const latestBlockNumber = useBlockNumber()
 

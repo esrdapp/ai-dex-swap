@@ -34,20 +34,10 @@ export default function Pool() {
     tokenPairsWithLiquidityTokens
   ])
 
-  window.console.log("---liquidityTokens-1-",liquidityTokens)
-
-
   const [v2PairsBalances, fetchingV2PairBalances] = useTokenBalancesWithLoadingIndicator(
     account ?? undefined,
     liquidityTokens
   )
-
-  window.console.log("---v2PairsBalances-1-",v2PairsBalances)
-
-
-
-  window.console.log("---tokenPairsWithLiquidityTokens-1-",tokenPairsWithLiquidityTokens)
-
 
   // fetch the reserves for all V2 pools in which the user has a balance
   const liquidityTokensWithBalances = useMemo(
@@ -58,21 +48,13 @@ export default function Pool() {
     [tokenPairsWithLiquidityTokens, v2PairsBalances]
   )
 
-
-
-  window.console.log("---liquidityTokensWithBalances-1-",liquidityTokensWithBalances)
-
   const v2Pairs = usePairs(liquidityTokensWithBalances.map(({ tokens }) => tokens))
-  window.console.log("---v2Pairs-1-",v2Pairs)
 
   const v2IsLoading =
     fetchingV2PairBalances || v2Pairs?.length < liquidityTokensWithBalances.length || v2Pairs?.some(V2Pair => !V2Pair)
 
   const allV2PairsWithLiquidity = v2Pairs.map(([, pair]) => pair).filter((v2Pair): v2Pair is Pair => Boolean(v2Pair))
 
-
-  window.console.log("---v2Pairs--",v2Pairs)
-  window.console.log("---allV2PairsWithLiquidity--",allV2PairsWithLiquidity)
 
   return (
     <>
