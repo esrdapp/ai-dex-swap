@@ -22,6 +22,24 @@ export const HPBUSDT = new Token(ChainId.HPB, '0xd378634119d2f7b3cf3d60e0b0f5e04
 export const HPBHPD = new Token(ChainId.HPB, '0x6383f770f1eec68e80ac0c5527be71a11b4d182c', 18, 'HPD', 'Hpdex Token')
 export const HPBESR = new Token(ChainId.HPB, '0xa7Be5e053cb523585A63F8F78b7DbcA68647442F', 18, 'ESR', 'ESR Token')
 export const HPBETH = new Token(ChainId.HPB, '0x0F63352dF611350201c419dE9399a67e50D4B820', 18, 'ETH', 'ETH Token')
+export const HPBHBB = new Token(ChainId.HPB, '0x4ca7665a86fecd3c1df233d8ab72e82261ed838a', 18, 'HBB', 'HBB Token')
+export const HPBSTEAM = new Token(ChainId.HPB, '0x597e994b9f5a3e397c8c5cfdb3893bacddb8167d', 2, 'STEAM', 'STEAM Token')
+export const HPB420 = new Token(ChainId.HPB, '0xf83811872d457532230a5f1f3cf0ca8f3aa0db55', 18, '420', '420 Token')
+export const HPBKING = new Token(ChainId.HPB, '0xdfe4051195a09a67defc36ce6bbb5e6edea745cb', 18, 'KING', 'KING Token')
+export const HPBDON = new Token(ChainId.HPB, '0xef8432fd5d8b6b33a9915cd6ad22fe9b6718db9b', 18, 'DON', 'DON Token')
+export const HPBONE = new Token(ChainId.HPB, '0x8ce49d1feccc1b44fe69a9089c385f43091c1c6b', 18, 'ONE', 'ONE Token')
+export const HPBLIADRIN = new Token(ChainId.HPB, '0xe87fca450807e4180710da738660efef5198c173', 0, 'LIADRIN', 'LIADRIN Token')
+export const HPBLEPOSTER = new Token(ChainId.HPB, '0x88288f66fcfa6eeeb6413672c0722389b461dead', 0, 'LEPOSTER', 'LEPOSTER Token')
+export const HPBASTERIUS = new Token(ChainId.HPB, '0xd55fe231cb55dda0bb09df0a55b59492ccfa8643', 0, 'ASTERIUS', 'ASTERIUS Token')
+export const HPBTORREN = new Token(ChainId.HPB, '0x9fa2eb3f740055ee6cb1ff11b854f27fbe200e7d', 0, 'TORREN', 'TORREN Token')
+export const HPBTERESA = new Token(ChainId.HPB, '0xf72abc6c8a18bdccb13c6ea6a6d0a2d6644d7d33', 0, 'TERESA', 'TERESA Token')
+export const HPBKEY = new Token(ChainId.HPB, '0x18b52d987e2047d7a9c389a2ce41160dcd24a9cf', 0, 'KEY', 'KEY Token')
+export const HPBGOLD = new Token(ChainId.HPB, '0xe7d30f3ed0604b4399852a7309513ed8f27e3c39', 0, 'GOLD', 'GOLD Token')
+export const HPBXP = new Token(ChainId.HPB, '0x2885d06706da3d9335ad8e484945d96d153476b4', 0, 'XP', 'XP Token')
+export const HPBHDOG = new Token(ChainId.HPB, '0xcabf7e4c9d28f4957ba6f5558f81ef833fc2914e', 4, 'HDOG', 'HDOG Token')
+export const HPBZAN = new Token(ChainId.HPB, '0x82de1328efc8b0327ea659baf25912d1af29b30a', 18, 'ZAN', 'ZAN Token')
+export const HPBBTNG = new Token(ChainId.HPB, '0xe516282d58468ef5664cd549849744a4a823af22', 18, 'BTNG', 'BTNG Token')
+export const HPBDAO = new Token(ChainId.HPB, '0x7fb80517de4894a2a22cfda1533253058124ed91', 18, 'DAO', 'DAO Token')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
@@ -57,8 +75,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET]],
-  [ChainId.HPB]: [...WETH_ONLY[ChainId.HPB],HPBUSDT,HPBHPD,HPBESR,HPBETH]
+ [ChainId.HPB]: [...WETH_ONLY[ChainId.HPB],HPBUSDT,HPBHPD,HPBESR,HPBETH,HPBHBB,HPBSTEAM,HPB420,HPBKING,HPBDON,HPBONE,HPBLIADRIN,HPBLEPOSTER,HPBASTERIUS,HPBTORREN,HPBTERESA,HPBKEY,HPBGOLD,HPBXP,HPBHDOG,HPBZAN,HPBBTNG,HPBDAO]
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
