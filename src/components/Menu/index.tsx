@@ -95,8 +95,20 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
+
+          <MenuItem id="link" href="https://app.hpdex.org/#/swap"> 
+            Swap
+          </MenuItem>   
+
+           <MenuItem id="link" href="https://farm.hpdex.org/"> 
+            Farm
+          </MenuItem>     
+           <MenuItem id="link" href="https://info.hpdex.org/"> 
+            Info
+          </MenuItem>  
+
           <MenuItem id="link" href="https://hpdex.org/">
-            <Info size={14} />
+            {/* <Info size={14} /> */}
             About
           </MenuItem>
 	{/*

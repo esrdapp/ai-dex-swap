@@ -57,7 +57,8 @@ const BodyWrapper = styled.div`
 const FooterWrapper = styled.div`
   ${({ theme }) => theme.flexRowNoWrap}
   width: 100%;
-  justify-content: space-between;
+  bottom: 5px;
+  position: fixed; 
 `
 
 const Marginer = styled.div`

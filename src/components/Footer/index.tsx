@@ -13,8 +13,7 @@ const FooterFrame = styled.div`
   justify-content: flex-end;
   flex-direction: column;
   width: 100%;
-  bottom: 10px;
-  position: absolute;
+
   z-index: 2;
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     padding: 12px 0 0 0;
@@ -78,7 +77,7 @@ export default function Footer() {
     <FooterFrame>
       <RowBetween style={{ alignItems: 'flex-start',justifyContent:'flex-end' }} padding="1rem 1rem 0 1rem">
         {/* <FooterElement> */}
-        <Title href="https://twitter.com/HPB_Global " target="_blank"> 
+        <Title href="https://twitter.com/Hpdexglobal" target="_blank"> 
               <img src={Twitter} alt="logo" width="24" /> 
           </Title>
           <Title href="https://t.me/hpdexglobal" target="_blank"> 
@@ -87,7 +86,7 @@ export default function Footer() {
           <Title href="https://github.com/hpdex-project" target="_blank"> 
               <img src={Github} alt="logo" width="24"/> 
           </Title>
-          <Title href="https://medium.com/hpb-foundation" target="_blank"> 
+          <Title href="https://www.hpclub.org/ " target="_blank"> 
               <img src={Medium} alt="logo" width="24"/> 
           </Title>
         {/* </FooterElement> */}

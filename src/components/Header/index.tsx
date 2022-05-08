@@ -5,8 +5,8 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/svg/logo.svg'
-import LogoDark from '../../assets/svg/logo_white.svg'
+// import Logo from '../../assets/svg/logo.svg'
+// import LogoDark from '../../assets/svg/logo_white.svg'
 import Wordmark from '../../assets/svg/wordmark.svg'
 import WordmarkDark from '../../assets/svg/wordmark_white.svg'
 import { useActiveWeb3React } from '../../hooks'
@@ -101,9 +101,11 @@ const UniIcon = styled.div`
   :hover {
     transform: rotate(-5deg);
   }
+  display:none;
   ${({ theme }) => theme.mediaWidth.upToSmall`
+  display:block;
     img { 
-      width: 4.5rem;
+      width: 6.5rem;
     }
   `};
 `
@@ -123,6 +125,22 @@ const BalanceText = styled(Text)`
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     display: none;
   `};
+`
+
+const OutLink = styled.a`
+  display: flex;
+  align-items: center;
+  pointer-events: auto; 
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none; 
+  display: inline-block;
+  text-align: center;
+  padding:0.75em; 
+  :hover {
+    cursor: pointer;
+    color:#BFBFBF;
+  }
 `
 
 const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
@@ -146,12 +164,26 @@ export default function Header() {
         <HeaderElement>
           <Title href=".">
             <UniIcon>
-              <img src={isDark ? LogoDark : Logo} alt="logo" />
+              <img src={isDark ? WordmarkDark : Wordmark} alt="logo" />
             </UniIcon>
             <TitleText>
               <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
             </TitleText>
           </Title>
+          {
+          isMobile ?'': 
+            <div>
+                <OutLink  href="https://app.hpdex.org/#/swap" target={'_blank'}   style={{ marginLeft: '40px',color:(isDark?'#fff':'#000') }}> 
+                  Swap
+                </OutLink>  
+                <OutLink  href="https://farm.hpdex.org/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
+                  Farm
+                </OutLink>  
+                <OutLink  href="https://info.hpdex.org/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
+                  Info
+                </OutLink>
+            </div>
+          }
         </HeaderElement>
         <HeaderControls>
           <HeaderElement>
