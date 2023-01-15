@@ -173,11 +173,11 @@ export default function Header() {
           {
           isMobile ?'': 
             <div>
-                <OutLink  href="https://app.ai-dex.net/#/swap" target={'_blank'}   style={{ marginLeft: '40px',color:(isDark?'#fff':'#000') }}> 
+                <OutLink  href="https://ai-dex.net/#/swap" target={'_blank'}   style={{ marginLeft: '40px',color:(isDark?'#fff':'#000') }}> 
                   Swap
                 </OutLink>  
-                <OutLink  href="https://farm.ai-dex.net/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
-                  Farm
+                <OutLink  href="https://app.multichain.org/#/router/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
+                  Cross-Chain
                 </OutLink>  
                 <OutLink  href="https://info.ai-dex.net/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
                   Info
