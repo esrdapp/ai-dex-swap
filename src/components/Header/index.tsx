@@ -173,13 +173,13 @@ export default function Header() {
           {
           isMobile ?'': 
             <div>
-                <OutLink  href="https://app.hpdex.org/#/swap" target={'_blank'}   style={{ marginLeft: '40px',color:(isDark?'#fff':'#000') }}> 
+                <OutLink  href="https://app.ai-dex.net/#/swap" target={'_blank'}   style={{ marginLeft: '40px',color:(isDark?'#fff':'#000') }}> 
                   Swap
                 </OutLink>  
-                <OutLink  href="https://farm.hpdex.org/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
+                <OutLink  href="https://farm.ai-dex.net/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
                   Farm
                 </OutLink>  
-                <OutLink  href="https://info.hpdex.org/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
+                <OutLink  href="https://info.ai-dex.net/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
                   Info
                 </OutLink>
             </div>
