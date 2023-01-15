@@ -1,5 +1,5 @@
 {
-	"name": "hpdex token list",
+	"name": "AI-DEX token list",
 	"logoURI": "https://dex.hpbnode.com/download/token-list/logo/hpb-interface.svg",
 	"keywords": [
 		"hpdex",
@@ -8,7 +8,7 @@
 	"timestamp": "2021-05-27T20:37:00.000+00:00",
 	"tokens": [
 		{
-			"name": "Wrapper HPB",
+			"name": "Wrapped HPB",
 			"address": "0xBE05Ac1FB417c9EA435b37a9Cecd39Bc70359d31",
 			"symbol": "WHPB",
 			"decimals": 18,
@@ -24,7 +24,7 @@
 			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_esr.svg"
 		},
 		{
-			"name": "Clone ETH Token",
+			"name": "Cloned ETH Token",
 			"address": "0x0F63352dF611350201c419dE9399a67e50D4B820",
 			"symbol": "ETH",
 			"decimals": 18,
