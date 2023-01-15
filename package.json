@@ -106,6 +106,6 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "ai-dex-swap-sdk": "^1.0.0"
+    "hpbswap-sdk": "^1.0.0"
   }
 }
