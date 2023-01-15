@@ -1,0 +1,206 @@
+{
+	"name": "hpdex token list",
+	"logoURI": "https://dex.hpbnode.com/download/token-list/logo/hpb-interface.svg",
+	"keywords": [
+		"hpdex",
+		"defi"
+	],
+	"timestamp": "2021-05-27T20:37:00.000+00:00",
+	"tokens": [
+		{
+			"name": "Wrapper HPB",
+			"address": "0xBE05Ac1FB417c9EA435b37a9Cecd39Bc70359d31",
+			"symbol": "WHPB",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_whpb.svg"
+		},
+		{
+			"name": "ESR Token",
+			"address": "0xa7Be5e053cb523585A63F8F78b7DbcA68647442F",
+			"symbol": "ESR",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_esr.svg"
+		},
+		{
+			"name": "Clone ETH Token",
+			"address": "0x0F63352dF611350201c419dE9399a67e50D4B820",
+			"symbol": "ETH",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_ETH.svg"
+		},
+		{
+			"name": "Hpdex Token",
+			"address": "0x6383f770f1eec68e80ac0c5527be71a11b4d182c",
+			"symbol": "HPD",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_hpd.svg"
+		},
+		{
+			"name": "Bibox Clone USDT Token",
+			"address": "0xd378634119d2f7b3cf3d60e0b0f5e048e74ce3cf",
+			"symbol": "USDT",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_USDT.svg"
+		},
+		{
+			"name": "STEAM Token",
+			"address": "0x597e994b9f5a3e397c8c5cfdb3893bacddb8167d",
+			"symbol": "STEAM",
+			"decimals": 2,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_STEAM.svg"
+		},
+		{
+			"name": "420 Token",
+			"address": "0xf83811872d457532230a5f1f3cf0ca8f3aa0db55",
+			"symbol": "420",
+			"decimals": 4,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_420.svg"
+		},
+		{
+			"name": "HBB Token",
+			"address": "0x4ca7665a86fecd3c1df233d8ab72e82261ed838a",
+			"symbol": "HBB",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_HBB.svg"
+		},
+		{
+			"name": "KING Token",
+			"address": "0xdfe4051195a09a67defc36ce6bbb5e6edea745cb",
+			"symbol": "KING",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_KING.svg"
+		},
+		{
+			"name": "DON Token",
+			"address": "0xef8432fd5d8b6b33a9915cd6ad22fe9b6718db9b",
+			"symbol": "DON",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_DON.svg"
+		},
+		{
+			"name": "ONE Token",
+			"address": "0x8ce49d1feccc1b44fe69a9089c385f43091c1c6b",
+			"symbol": "ONE",
+			"decimals": 18,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/ONE.svg"
+		},
+		{
+			"name": "LIADRIN Token",
+			"address": "0xe87fca450807e4180710da738660efef5198c173",
+			"symbol": "LIADRIN",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_liadrin.svg"
+		},
+		{
+			"name": "LEPOSTER Token",
+			"address": "0x88288f66fcfa6eeeb6413672c0722389b461dead",
+			"symbol": "LEPOSTER",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_leposter.svg"
+		},
+		{
+			"name": "ASTERIUS Token",
+			"address": "0xd55fe231cb55dda0bb09df0a55b59492ccfa8643",
+			"symbol": "ASTERIUS",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_asterius.svg"
+		},
+		{
+			"name": "TORREN Token",
+			"address": "0x9fa2eb3f740055ee6cb1ff11b854f27fbe200e7d",
+			"symbol": "TORREN",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_torren.svg"
+		},
+		{
+			"name": "TERESA Token",
+			"address": "0xf72abc6c8a18bdccb13c6ea6a6d0a2d6644d7d33",
+			"symbol": "TERESA",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_teresa.svg"
+		},
+		{
+			"name": "KEY Token",
+			"address": "0x18b52d987e2047d7a9c389a2ce41160dcd24a9cf",
+			"symbol": "KEY",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_key.svg"
+		},
+		{
+			"name": "GOLD Token",
+			"address": "0xe7d30f3ed0604b4399852a7309513ed8f27e3c39",
+			"symbol": "GOLD",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_gold.svg"
+		},
+		{
+			"name": "XP Token",
+			"address": "0x2885d06706da3d9335ad8e484945d96d153476b4",
+			"symbol": "XP",
+			"decimals": 0,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_xp.svg"
+		},
+		{
+			"name": "HDOG Token",
+			"address": "0xcabf7e4c9d28f4957ba6f5558f81ef833fc2914e",
+			"symbol": "HDOG",
+			"decimals": 4,
+			"chainId": 269,
+			"logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_hdog.svg"
+		},
+		
+    {
+      "name": "ZAN Token",
+      "address": "0x82de1328efc8b0327ea659baf25912d1af29b30a",
+      "symbol": "ZAN",
+      "decimals": 18,
+      "chainId": 269,
+      "logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_ZAN.svg"
+     },
+    
+    {
+      "name": "BTNG Token",
+      "address": "0xe516282d58468ef5664cd549849744a4a823af22",
+      "symbol": "BTNG",
+      "decimals": 18,
+      "chainId": 269,
+      "logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_BTNG.svg"
+     },
+    
+    {
+      "name": "DAO Token",
+      "address": "0x7fb80517de4894a2a22cfda1533253058124ed91",
+      "symbol": "DAO",
+      "decimals": 18,
+      "chainId": 269,
+      "logoURI": "https://dex.hpbnode.com/download/token-list/logo/asset_DAO.svg"
+     }
+
+
+
+	],
+	"version": {
+		"major": 1,
+		"minor": 7,
+		"patch": 2
+	}
+}
