@@ -77,16 +77,16 @@ export default function Footer() {
     <FooterFrame>
       <RowBetween style={{ alignItems: 'flex-start',justifyContent:'flex-end' }} padding="1rem 1rem 0 1rem">
         {/* <FooterElement> */}
-        <Title href="https://twitter.com/Hpdexglobal" target="_blank"> 
+        <Title href="https://twitter.com/ai-dex" target="_blank"> 
               <img src={Twitter} alt="logo" width="24" /> 
           </Title>
-          <Title href="https://t.me/hpdexglobal" target="_blank"> 
+          <Title href="https://t.me/ai-dex" target="_blank"> 
               <img src={Telegram} alt="logo" width="24"/> 
           </Title>
-          <Title href="https://github.com/hpdex-project" target="_blank"> 
+          <Title href="https://github.com/esrdapp/ai-dex-swap" target="_blank"> 
               <img src={Github} alt="logo" width="24"/> 
           </Title>
-          <Title href="https://www.hpclub.org/ " target="_blank"> 
+          <Title href="https://www.ai-dex.net/ " target="_blank"> 
               <img src={Medium} alt="logo" width="24"/> 
           </Title>
         {/* </FooterElement> */}
