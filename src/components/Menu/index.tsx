@@ -96,18 +96,18 @@ export default function Menu() {
       {open && (
         <MenuFlyout>
 
-          <MenuItem id="link" href="https://app.hpdex.org/#/swap"> 
+          <MenuItem id="link" href="https://app.ai-dex.net/#/swap"> 
             Swap
           </MenuItem>   
 
-           <MenuItem id="link" href="https://farm.hpdex.org/"> 
+           <MenuItem id="link" href="https://farm.ai-dex.net/"> 
             Farm
           </MenuItem>     
-           <MenuItem id="link" href="https://info.hpdex.org/"> 
+           <MenuItem id="link" href="https://info.ai-dex.net/"> 
             Info
           </MenuItem>  
 
-          <MenuItem id="link" href="https://hpdex.org/">
+          <MenuItem id="link" href="https://ai-dex.net/">
             {/* <Info size={14} /> */}
             About
           </MenuItem>
