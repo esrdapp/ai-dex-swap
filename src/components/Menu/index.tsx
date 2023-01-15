@@ -100,16 +100,17 @@ export default function Menu() {
             Swap
           </MenuItem>   
 
-           <MenuItem id="link" href="https://farm.ai-dex.net/"> 
-            Farm
-          </MenuItem>     
+           <MenuItem id="link" href="https://app.multichain.org/#/router/"> 
+            Cross-Chain
+          </MenuItem>  
+				  
            <MenuItem id="link" href="https://info.ai-dex.net/"> 
             Info
           </MenuItem>  
 
-          <MenuItem id="link" href="https://ai-dex.net/">
+          <MenuItem id="link" href="https://hpb.io/">
             {/* <Info size={14} /> */}
-            About
+            HPB Blockchain Info
           </MenuItem>
 	{/*
           <MenuItem id="link" href="https://uniswap.org/docs/v2">
