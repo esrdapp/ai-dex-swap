@@ -179,6 +179,9 @@ export default function Header() {
                 <OutLink  href="https://app.multichain.org/#/router/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
                   Cross-Chain
                 </OutLink>  
+                <OutLink  href="https://aibot.ai-dex.net/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
+                  (NEW!) AI-DEX BOT
+                </OutLink>
                 <OutLink  href="https://info.ai-dex.net/" target={'_blank'}  style={{color:(isDark?'#fff':'#000') }} > 
                   Info
                 </OutLink>
